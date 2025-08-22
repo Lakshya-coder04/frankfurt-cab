@@ -1,9 +1,8 @@
 // src/App.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Slider from 'react-slick';
 import {
-  Menu,
   X,
   CheckCircle2,
   Headphones,
