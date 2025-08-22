@@ -55,10 +55,6 @@ export default function App() {
     responsive: [
       { breakpoint: 1280, settings: { slidesToShow: 2 } }, // tablets / small desktops
       { breakpoint: 768, settings: { slidesToShow: 1 } }, // regular mobile
-      {
-        breakpoint: 480,
-        settings: { slidesToShow: 1, dots: true, arrows: false },
-      }, // small mobile
     ],
   } as const;
 
