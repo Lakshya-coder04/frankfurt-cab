@@ -1,0 +1,7 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import "tailwindcss";
+@custom-variant hover (&:hover);
+@custom-variant dark (&:where(.dark, .dark *));
+
+html, body, #root {font-family:  "Poppins", sans-serif; height: 100%; scroll-behavior: smooth;}
